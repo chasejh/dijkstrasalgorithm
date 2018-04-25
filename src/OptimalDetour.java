@@ -1,5 +1,5 @@
 /*
-Name: J. Chase
+Author: J. Chase
 Program Description: This program implements Dijkstra's shortest
 path closest pair algorithm to find the optimal detour to circumvent
 road closures.
@@ -14,13 +14,14 @@ import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class OptimalDetour {
-
-    int numCities;
-    final int MAX = Integer.MAX_VALUE;
+    
+    //members
+    int numCities; // number of cities in the map
+    final int MAX = Integer.MAX_VALUE; // to initialize array of potential verticies
     int[][] mtrx; // adjacency matrix
-    HashMap<String, Integer> cities; // map the cities to ints
-    String[] citiesArray;
-    PriorityQueue<Vertex> q;
+    HashMap<String, Integer> cities; // map the cities to indexable integers
+    String[] citiesArray; // array of city names
+    PriorityQueue<Vertex> q; // the priority of the verticies
 
     /**
      * The constructor
