@@ -1,5 +1,5 @@
 /**
- * Created by JChase on 12/5/17.
+ * A main method to run dijkstras algorithm given a file that represents weighted graph input.
  */
 public class Main {
     public static void main(String[] args){
