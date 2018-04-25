@@ -1,5 +1,5 @@
 /*
-Author: J. Chase
+Author: Jessica Chase
 Program Description: This program implements Dijkstra's shortest
 path closest pair algorithm to find the optimal detour to circumvent
 road closures.
